@@ -2,10 +2,12 @@
     .nav-list {
         display: none;
     }
+
     .nav-button {
         display: block;
     }
-    .nav.open .nav-list{
+
+    .nav.open .nav-list {
         position: fixed;
         top: 0;
         bottom: 0;
@@ -21,6 +23,7 @@
         font-size: 34px;
         font-weight: 600;
     }
+
     .nav-button {
         position: fixed;
         z-index: 9;
@@ -74,5 +77,26 @@
 
     .project + .project {
         margin-top: 55px;
+    }
+
+    .contacts {
+        padding: 60px 0;
+    }
+
+    .contacts-title {
+        margin-bottom: 20px;
+    }
+
+    .contacts-content {
+        margin-bottom: 20px;
+    }
+
+    .contacts-button {
+        margin-bottom: 70px;
+    }
+
+    .contacts-social {
+        column-gap: 50px;
+        margin-bottom: 20px;
     }
 }
